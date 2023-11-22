@@ -168,8 +168,10 @@ def main(args):
     """
     print(art)
     logging.info(art)
+    
     #check device 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    ev_loss=float('inf')
     art2= """
   ___                        ___  
  (o o)                      (o o) 
@@ -220,6 +222,9 @@ def main(args):
             wandb.log({'epoch': i+1})
             
         #save model and things
+        if eval_loss<ev_loss:
+            ev_loss = eval_loss
+            torch.save(model.state_dict(), os.path.join(args.save_path, args.exp_name,'best.pth'))
         
         
         
