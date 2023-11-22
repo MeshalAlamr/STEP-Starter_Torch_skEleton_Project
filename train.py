@@ -185,7 +185,17 @@ def main(args):
     train_dataloader, test_dataloader, questions_onehot, model, criterion, optimizer = prepare_model(args, device)
     
 
+    art3= """
+ \\           =o) 
+ (o>          /\\ 
+_(()_Training_\_V_
+ //            \\ 
+                \\
     
+          """
+          
+    print(art3)
+    logging.info(art3)
     
     for i in tqdm(range(args.epoch)):
         
