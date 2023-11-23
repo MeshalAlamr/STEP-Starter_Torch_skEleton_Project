@@ -8,7 +8,7 @@
 ## Motivation
 Starting a new project is an exciting thing but sadliy you will have to waste your time building the basic code from scratch (╯°益°)╯彡┻━┻.   
 But worry not for I came to save the day  ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ .   
-with this project I aim to create a complete basecode skeleton for starting a deeplearning project with pytorch, all you have to do is modify it for your needs.  
+with this project I aim to create a complete basecode skeleton for starting a deeplearning project with pytorch, all you have to do is concentrate on building your awesome model and leave the basic things to me ☆⌒(≧▽​° ).
 
 ## Features
 - Model skeleton.
