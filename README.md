@@ -1,9 +1,9 @@
 # STEP-Starter_Torch_skEleton_Project
 ## Index
-1. [Motivation](Motivation)
-2. [Features](Features)
-3. [Future Work](Future-Work)
-4. [Final Remarks](Final-Remarks)
+1. [Motivation](#motivation)
+2. [Features](#features)
+3. [Future Work](#future-work)
+4. [Final Remarks](#final-remarks)
 
 ## Motivation
 Starting a new project is an exciting thing but sadliy you will have to waste your time building the basic code from scratch (╯°益°)╯彡┻━┻.   
