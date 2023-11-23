@@ -21,6 +21,7 @@ with this project I aim to create a complete basecode skeleton for starting a de
 - saving model after each epoch.
 
 ## Future Work
+- Use pytorch lightining wrapper.
 - Multi-GPU support.
 - Basic utils functions.
 - Multi-thread skeleton.
