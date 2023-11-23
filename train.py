@@ -35,7 +35,7 @@ args = parser.parse_args()
 
 #---------Check for args validity------------
 
-#cretae save dir
+#create save dir
 if not args.save_path:
         raise ValueError(f'--save_path must be provided. current value is {args.save_path}')
 else:
@@ -57,7 +57,7 @@ if not args.exp_name:
 if args.offline_logs:
     logging.basicConfig(filename=os.path.join(args.save_path, args.exp_name,'logs.log') , filemode='w', format='%(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-#check for online loging
+#check for online logging
 if args.online_logs:
     if not args.exp_name:
         raise ValueError('--exp_name must be provided when --online_logs is True')
