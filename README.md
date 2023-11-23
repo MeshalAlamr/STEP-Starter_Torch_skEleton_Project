@@ -1,6 +1,34 @@
 # STEP-Starter_Torch_skEleton_Project
-## Goals
-- add utiltiys function
-- multigpu
-- multithreading
-- resume checkpoint
+## Index
+1. [Motivation](Motivation)
+2. [Features](Features)
+3. [Future Work](Future-Work)
+4. [Final Remarks](Final-Remarks)
+
+## Motivation
+Starting a new project is an exciting thing but sadliy you will have to waste your time building the basic code from scratch (╯°益°)╯彡┻━┻.   
+But worry not for I came to save the day  ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ .   
+with this project I aim to create a complete basecode skeleton for starting a deeplearning project with pytorch, all you have to do is modify it for your needs.  
+
+## Features
+- Model skeleton.
+- Dataoader skeleton.
+- Basic train/test Split of Dataloader. 
+- Basic train function.
+- Basic evaluation function.
+- offline logs.
+- online logs (using [wandb](https://wandb.ai/site)).
+- saving model after each epoch.
+
+## Future Work
+- Multi-GPU support.
+- Basic utils functions.
+- Multi-thread skeleton.
+- Custom Loss skeleton.
+- Starter Colab notebook.
+
+## Final Remarks
+If you love the project and would like to contribute don't be shy and make a pull request with your additions, and if you find useful please don't forget to star it (⌒▽⌒)☆.  
+If you wanna talk shoot me a message on [linkedin](linkedin.com/in/hazim-bukhari).  
+  
+NOTE: The code is under development and will be refined with time, I appreciate any input and thank you for using my project m(_ _)m.
