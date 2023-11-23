@@ -6,13 +6,13 @@
 4. [Final Remarks](#final-remarks)
 
 ## Motivation
-Starting a new project is an exciting thing but sadliy you will have to waste your time building the basic code from scratch (╯°益°)╯彡┻━┻.   
+Starting a new project is an exciting thing but sadly you will have to waste your time building the basic code from scratch (╯°益°)╯彡┻━┻.   
 But worry not for I came to save the day  ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ .   
 with this project I aim to create a complete basecode skeleton for starting a deeplearning project with pytorch, all you have to do is concentrate on building your awesome model and leave the basic things to me ☆⌒(≧▽​° ).
 
 ## Features
 - Model skeleton.
-- Dataoader skeleton.
+- Dataloader skeleton.
 - Basic train/test Split of Dataloader. 
 - Basic train function.
 - Basic evaluation function.
